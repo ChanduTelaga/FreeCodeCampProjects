@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="sform">
+        <h1>Parent Teacher Conference Form</h1>
+        <p>Please fill out the form below to help schedule your parent-teacher conference.</p>
+
+        <form action="#url">
+            <fieldset>
+                <legend>Student Information</legend>
+                <label for="Student_name">Full Name:</label>
+                <input type="text" name="Student_name" required placeholder="E.g., Jane Doe">
+
+                <label for="Student_grade">Student Grade:</label>
+                <input type="number" name="Student_grade" required placeholder="E.g., 4">
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Parent/Guardian Information</legend>
+
+                <label for="Parent_name">Parent/Guardian Name:</label>
+                <input type="text" name="Parent_name" required placeholder="E.g., Nancy Doe">
+            </fieldset>
+
+            <fieldset class="contact">
+                <legend>Preferred Contact Mode</legend>
+                <label for="email">Email:</label>
+                <input type="radio" name="contact" value="email">
+
+                <label for="phone">Phone:</label>
+                <input type="radio" name="contact" value="phone">
+            </fieldset>
+
+            <fieldset>
+                <legend>Additional Notes</legend>
+
+                <label for="notes">Any specific concerns or topics you'd like to discuss?</label>
+                <textarea name="notes" id="notes"></textarea>
+            </fieldset>
+        </form>
+
+        <button type="submit" form="sform">Submit Form</button>
+    </div>
+    
+</body>
+</html>
