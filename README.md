@@ -20,6 +20,7 @@ Explore the projects below 👇
 - 🔗 [Design a Business Card](https://chandutelaga.github.io/FreeCodeCampProjects/Design%20a%20Business%20Card/)
 - 🔗 [Design a Greeting Card](https://chandutelaga.github.io/FreeCodeCampProjects/Design%20a%20Greeting%20Card/)
 - 🔗 [Design a Café Menu](https://chandutelaga.github.io/FreeCodeCampProjects/Design%20a%20cafe%20menu/)
+- 🔗 [Feature Selection Page](https://chandutelaga.github.io/FreeCodeCampProjects/Design%20a%20Feature%20Selection%20Page/)
 
 ### 🗂️ Productivity App
 - 🔗 [Build a Stylized To-Do List](#) *(Coming soon)*
