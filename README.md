@@ -13,6 +13,7 @@ Explore the projects below 👇
 
 ### 📝 Forms & UI Projects
 - 🔗 [Build a Job Application Form](https://chandutelaga.github.io/FreeCodeCampProjects/Build%20A%20Job%20Application%20Form/)
+- 🔗 [Build A FlexBox PhotoGallery](https://chandutelaga.github.io/FreeCodeCampProjects/Build%20A%20FlexBox%20PhotoGallery/)
 - 🔗 [Design a Parent-Teacher Conference Form](https://chandutelaga.github.io/FreeCodeCampProjects/Design%20a%20parent%20teacher%20conference%20form/)
 
 ### 🎨 Design & Layout Projects
