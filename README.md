@@ -15,6 +15,7 @@ Explore the projects below 👇
 - 🔗 [Build a Job Application Form](https://chandutelaga.github.io/FreeCodeCampProjects/Build%20A%20Job%20Application%20Form/)
 - 🔗 [Build A FlexBox PhotoGallery](https://chandutelaga.github.io/FreeCodeCampProjects/Build%20A%20FlexBox%20PhotoGallery/)
 - 🔗 [Design a Parent-Teacher Conference Form](https://chandutelaga.github.io/FreeCodeCampProjects/Design%20a%20parent%20teacher%20conference%20form/)
+- 🔗 [DesignAPricingPlansLayoutPage](https://chandutelaga.github.io/FreeCodeCampProjects/DesignAPricingPlansLayoutPage/)
 
 ### 🎨 Design & Layout Projects
 - 🔗 [Design a Blog Post Card](https://chandutelaga.github.io/FreeCodeCampProjects/Design%20a%20Blog%20Post%20Card/)
