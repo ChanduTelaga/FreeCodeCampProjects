@@ -29,7 +29,7 @@ Explore the projects below 👇
 - 🔗 [Feature Selection Page](https://chandutelaga.github.io/FreeCodeCampProjects/Design%20a%20Feature%20Selection%20Page/)
 
 ### 🗂️ Productivity App
-- 🔗 [Build a Stylized To-Do List](#) *(Coming soon)*
+- 🔗 [Build a Stylized To-Do List](https://chandutelaga.github.io/FreeCodeCampProjects/Build%20a%20stylized%20To-Do%20list/)
 
 ---
 
