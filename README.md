@@ -11,6 +11,10 @@ This repository showcases my practical learning journey with HTML, CSS, and fron
 
 Explore the projects below 👇
 
+## Certification Project
+- 🔗 [Build a Page of Playing Cards](https://chandutelaga.github.io/FreeCodeCampProjects/Build%20a%20Page%20of%20Playing%20Card/)
+-   
+
 ### 📝 Forms & UI Projects
 - 🔗 [Build a Job Application Form](https://chandutelaga.github.io/FreeCodeCampProjects/Build%20A%20Job%20Application%20Form/)
 - 🔗 [Build A FlexBox PhotoGallery](https://chandutelaga.github.io/FreeCodeCampProjects/Build%20A%20FlexBox%20PhotoGallery/)
@@ -25,7 +29,7 @@ Explore the projects below 👇
 - 🔗 [Feature Selection Page](https://chandutelaga.github.io/FreeCodeCampProjects/Design%20a%20Feature%20Selection%20Page/)
 
 ### 🗂️ Productivity App
-- 🔗 [Build a Stylized To-Do List](#) *(Coming soon)*
+- 🔗 [Build a Stylized To-Do List](https://chandutelaga.github.io/FreeCodeCampProjects/Build%20a%20stylized%20To-Do%20list/)
 
 ---
 
