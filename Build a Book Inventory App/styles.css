@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 20px;
+  margin-left: 10px;
+}
+
+table {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  overflow-x: scroll;
+  border: none;
+  border-collapse: none;
+  border-spacing: 0;
+}
+
+
+
+
+thead {
+  background-image: linear-gradient(to bottom, white, skyblue);
+}
+
+th, td {
+  padding: 10px;
+}
+
+tr[class="read"] {
+  background-image: linear-gradient(to bottom, white, lightgreen);
+}
+
+tr[class="to-read"] {
+  background-image: linear-gradient(to bottom, white, silver);
+}
+
+tr[class="in-progress"] {
+  background-image: linear-gradient(to bottom, white, orange);
+}
+
+span {
+  display: inline-block;
+}
+
+tr[class="to-read"] span[class="status"] {
+  border: 2px solid red;
+  background-image: linear-gradient(to bottom, white, red);
+  border-radius: 20px;
+}
+
+tr[class="read"] span[class="status"] {
+  border: 2px solid green;
+  background-image: linear-gradient(to bottom, white, green);
+  border-radius: 20px;
+}
+
+tr[class="in-progress"] span[class="status"] {
+  border: 2px solid yellow;
+  background-image: linear-gradient(to bottom, white, yellow);
+  border-radius: 20px;
+}
+
+
+
+span[class="status"], span[class^="rate"] {
+  height: 40px;
+  width: 100px;
+  padding: 5px;
+}
+
+span[class="status"] {
+  padding: 10px;
+  text-align: center;
+}
+
+span[class^=rate] > span {
+  border: 2px solid black;
+  border-radius: 10px;
+  height: 20px;
+  width: 20px;
+  margin: 1px;
+  background-color: white;
+}
+
+span[class~=one] span:first-child {
+  background-image: linear-gradient(to bottom, white, yellow);
+}
+
+span[class~=two] span:nth-of-type(-n+2){
+  background-image: linear-gradient(to bottom, white, yellow);
+}
+
+
+span[class~=three] span
+ {
+  background-image: linear-gradient(to bottom, white, yellow);
+}
