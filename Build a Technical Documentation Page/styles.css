@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  max-width: 640px;
+}
+
+#navbar {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  border-right: 2px solid rgb(157, 153, 153);
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+#navbar a {
+  display: block;
+  text-decoration: none;
+  color: rgb(157, 153, 153);
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding: 10px;
+  padding-left: 30px;
+  border-top: 1px solid black;
+}
+
+#navbar a:hover {
+  background-color: gray;
+  color: white;
+}
+
+#navbar header {
+  font-size: 1.7rem;
+  font-weight: 500;
+  text-align: center;
+  padding: 10px;
+}
+
+#main-doc {
+  width: 70%;
+  height: 100vh;
+  padding: 30px;
+  padding-right: 0;
+  overflow-y: scroll;
+  background-color: azure;
+
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+#main-doc section ul {
+  list-style-position: inside;
+  margin-left: 50px;
+}
+
+#main-doc header {
+  font-size: 1.6rem;
+  text-align: start;
+}
+
+#main-doc section {
+  padding: 5px;
+}
+
+#main-doc section p {
+  padding: 10px;
+}
+
+code {
+  background-color: rgb(215, 214, 214);
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5px;
+  display: block;
+  width: fit-content;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    min-width: 768px;
+    max-width: 100%;
+  }
+
+  #navbar header {
+    font-size: 1.6rem;
+  }
+
+  #navbar a {
+    font-size: 1.4rem;
+  }
+
+  #main-doc header {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    min-width: 1200px;
+    max-width: 100%;
+  }
+
+  #navbar {
+    width: 20%;
+  }
+
+  #main-doc {
+    width: 80%;
+  }
+
+  #navbar header {
+    font-size: 1.5rem;
+  }
+
+  #navbar a {
+    font-size: 1.2rem;
+  }
+
+  #main-doc header {
+    font-size: 1.3rem;
+  }
+}
