@@ -8,39 +8,92 @@
   --font-main: "Poppins", sans-serif;
 }
 
+body {
+    font-family: var(--font-main);
+}
+
 #navbar {
   width: 100%;
-  height: 60px;
-  padding: 20px;
+  height: 70px;
+  padding: 0px 20px;
   background-color: #283593;
-  color: #e8eaf6;
+  color: #E8EAF6;
 
   display: flex;
-  flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-  /* gap: 20px; */
+
   position: sticky;
   top: 0;
   left: 0;
   z-index: 1000;
-  text-align: center;
+  
+
   font-size: 1.1rem;
-  font-style: var(--font-main);
+  font-family: var(--font-main);
 }
 
 #navbar a {
   text-decoration: none;
-  color: #e8eaf6;
-  height: 60px;
-  width: 60px;
-
-  margin: 50% 0;
+  color: #E8EAF6;
+  padding: 20px 15px;
+  text-align: center;
+  height: auto;
 }
 
 #navbar a:hover {
-  background-color: #5c6bc0;
+  background-color: #5C6BC0;
 }
+
+#welcome-section {
+    width: 100%;
+    height: 90vh;
+    background-color: #E8EAF6;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    font-size: 2rem;
+}
+
+#project-section {
+    width: 100%;
+    height: 100vh;
+    background-color: #0D1B3E;
+    padding: 20px;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-areas: 'psh psh psh'
+                        'project-tile project-tile project-tile'
+                        'showall showall showall';
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+}
+
+.psh {
+    grid-area: psh;
+}
+
+.project-tile {
+    grid-area: project-tile;
+    width: 300px;
+    min-height: 200px;
+    height: 100px;
+
+    background-color: #E8EAF6;
+}
+
+.showall {
+    grid-area: showall;
+}
+
+
 
 @media screen and (max-width: 576px) {
 }
